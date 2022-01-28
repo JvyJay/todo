@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Padauk:wght@400;700&display=swap');
+
+* {
+  font-family: 'Island Moments', cursive;
+  font-family: 'Padauk', sans-serif;
+}
+
+body {
+  background: rgb(123, 149, 173);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1.5rem !important;
+}
+
+p,
+span,
+button,
+ul,
+li {
+  font-size: 1rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.container {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  border: 1.5px rgb(139, 139, 139) solid;
+  border-radius: 10%;
+  padding: 10px;
+}
